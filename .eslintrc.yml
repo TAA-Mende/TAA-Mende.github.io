@@ -1,0 +1,4 @@
+extends:
+  - zakodium/ts
+  - next
+  - zakodium/react
