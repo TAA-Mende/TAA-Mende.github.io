@@ -51,7 +51,7 @@ function getPropsFromState(state: Mandats[number]['state']): {
   icon: ReactNode;
   iconBackgroundColor: Color | undefined;
 } {
-  if (state === 'Reportée') {
+  if (state === 'Reportee') {
     return {
       iconBackgroundColor: 'warning',
       icon: <XCircleIcon />,

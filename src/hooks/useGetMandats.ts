@@ -4,7 +4,7 @@ import { useQuery } from 'react-query';
 const octokit = new Octokit();
 
 interface Mandat {
-  state: 'Validée' | 'Reportée';
+  state: 'Validee' | 'Reportee';
   org: string;
   name: string;
   link?: string;
